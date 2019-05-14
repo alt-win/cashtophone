@@ -1,0 +1,59 @@
+* {
+            font-family: 'Roboto Mono', monospace;
+            color: white;
+            background-color: black;
+        }
+
+        h1, p {
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 40px;
+        }
+        
+        p {
+            font-size: 25px;
+        }
+        
+        #mainForm {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 50%;
+            white-space:nowrap;
+        }
+        
+        input, label, button {
+            display: inline-block;
+            font-size: 25px;
+        }
+        
+        input, button {
+            width: 300px;
+            height: 30px;
+            margin-left: 0px;
+            margin-right: 35px;
+        }
+        
+        button {
+            height: 40px;
+        }
+        
+        .green {
+            color: #01ff01;
+        }
+        
+        .orange {
+            color: #F59332;
+        }
+        
+        #qrCodeButton {
+            cursor: pointer;
+            color: #001f94;
+        }
+        
+        #qrCodeButton:hover {
+            background-color: #001f94;
+            color: black;
+        }
