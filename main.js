@@ -6,7 +6,7 @@ function displayPaymentInfo() {
     var scanMessage = document.getElementById("scanMessage");
     phoneNumber = phoneNumber.trimLeft("+");
     
-    //Check that both fields are populated
+    //Check that both fields are populated.
     if (!(bchAmount && phoneNumber)){
         errorField.innerHTML = "Please fill in both fields.";
         setTimeout(function(){document.getElementById("error").innerHTML="";}, 5000);
